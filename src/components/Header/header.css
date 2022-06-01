@@ -1,0 +1,136 @@
+a:focus-visible {
+  outline: none;
+}
+
+header {
+  border-bottom: 2px solid #5037cd;
+}
+
+.logo {
+  width: 250px;
+  background: transparent;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+.nav-link-item {
+  text-decoration: none;
+}
+
+header nav {
+  background-color: #5037cd;
+  padding: 0 20px !important;
+  line-height: 55px;
+}
+
+.login-signup-btn {
+  list-style: none;
+  padding: var(--padding-0);
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.login-signup-btn li a.active {
+  background-color: #5037cd;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.login-signup-btn li a.active span {
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+  -moz-text-fill-color: #fff;
+}
+
+.login-signup-btn li a span {
+  background: linear-gradient(120.55deg, #5037cd 3.44%, #fe88ff 93.83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 30px;
+}
+
+.login-signup-btn a {
+  padding: 13px;
+}
+
+.login-signup-btn a {
+  text-decoration: none;
+}
+
+.navigation li {
+  padding: 0 20px;
+  border-bottom: 4px solid transparent;
+  margin: 0 10px;
+}
+
+.navigation li a svg {
+  margin-right: 15px;
+}
+
+.navigation li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--primary-text);
+}
+
+.navigation li a:hover {
+  color: var(--primary-text);
+}
+
+.navigation li.active a {
+  color: #fff;
+}
+
+.navigation li.active a i {
+  color: var(--green);
+}
+
+.navigation li.active {
+  border-bottom: 3px solid var(--green);
+}
+
+.search-form {
+  position: relative;
+}
+
+input[type="search"]::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+input[type="search"]:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+input[type="search"]::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fff;
+}
+
+.search-form .search-icon {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 18px;
+  /* height: 25px; */
+}
+
+.search-form input[type="search"] {
+  background-color: var(--secondary-color);
+  border: 0;
+  width: 330px;
+  height: 48px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.search-form input[type="search"]:focus {
+  box-shadow: none;
+}
